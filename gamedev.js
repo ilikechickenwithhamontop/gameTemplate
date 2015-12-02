@@ -54,7 +54,7 @@ $( document ).ready(function() {
 
 
 	$("#goBack").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreHome1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/Long_Dark_Hallway_v2_wip_by_spinagain.png')");
 		$("#goBack").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
