@@ -17,7 +17,7 @@ $( document ).ready(function() {
 	$("#goRight-Straight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
 		$("#goRight-Straight2").hide();
-		$("#goRight-Straight3").show();
+		$("#goRight-Straight3").hide();
 	});
 
 	$("#goRight-Straight3").click(function() {
