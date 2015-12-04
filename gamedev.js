@@ -36,7 +36,7 @@ $( document ).ready(function() {
 
 
 	$("#goLeft1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft1.jpg')");
+		$("#exploreBody").css("background-image", "url('img/Dark_room.gif')");
 		$("#goLeft1").hide();
 		$("#goLeft2").show();
 	});
