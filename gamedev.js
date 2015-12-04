@@ -5,7 +5,7 @@ $( document ).ready(function() {
 		$("#goRight1").hide();
 		$("#goBack").hide();
 		$("#goRight-Straight1").show();
-		$("#goRight-Right2").show();
+		$("#goRight-Right2").hide();
 	});
 
 	$("#goRight-Straight1").click(function() {
