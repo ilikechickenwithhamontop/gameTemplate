@@ -61,8 +61,15 @@ $( document ).ready(function() {
 		$("#goBack").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
+		$("#goStraight1").show();
 	});
 
-
+    $("#goStraight1").click(function() {
+		$("#exploreBody").css("background-image", "url('img/Dark_hallway_widescreen_hd_wallpaper.jpg')");
+		$("#goStraightLeft1").show();
+		$("#goBack").hide();
+		$("#goStraightRight1").show();
+		$("#goStraightStraight1").show();
+	});
 
 });
