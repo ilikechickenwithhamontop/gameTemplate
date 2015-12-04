@@ -7,6 +7,7 @@ $( document ).ready(function() {
 		$("#goRight-Straight1").show();
 		$("#goRight-Right2").hide();
 		$("#goLeft1").hide();
+		$("#goStraight1").hide();
 	});
 
 	$("#goRight-Straight1").click(function() {
@@ -40,6 +41,7 @@ $( document ).ready(function() {
 		$("#goLeft1").hide();
 		$("#goLeft-Straight1").show();
 		$("#goRight1").hide();
+		$("#goStraight1").hide();
 	});
 
 	$("#goLeft-Straight1").click(function() {
@@ -66,10 +68,10 @@ $( document ).ready(function() {
 
     $("#goStraight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/Dark_hallway_widescreen_hd_wallpaper.jpg')");
-		$("#goStraightLeft1").show();
+		$("#goStraight-Left1").show();
 		$("#goBack").hide();
-		$("#goStraightRight1").show();
-		$("#goStraightStraight1").show();
+		$("#goStraight-Right1").show();
+		$("#goStraight-Straight1").show();
 	});
 
 });
