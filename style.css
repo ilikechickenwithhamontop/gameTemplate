@@ -29,7 +29,8 @@ body {
     text-decoration: none;
     background-color: #4b4b4b;
     box-shadow: 15px 15px 80px #555;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-family: Courier;
 }
   a.button:hover {
     background-color: #383838;
