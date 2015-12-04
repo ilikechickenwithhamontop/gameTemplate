@@ -92,6 +92,12 @@ body {
     display: none;
 }
 
+#goStraight {
+    bottom: 25%;
+    left: 45%;
+    display: none;
+}
+
 #goRight-Right2 {
     right: 40px;
     top: 40%;
