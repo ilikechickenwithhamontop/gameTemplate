@@ -95,7 +95,7 @@ body {
 #goStraight1 {
     bottom: 25%;
     left: 45%;
-    display: block;
+    display: none;
 }
 
 #goRight-Right2 {
