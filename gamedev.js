@@ -10,7 +10,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goRight-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/4984770900_13b607842b_b.jpg')");
 	    $("#goBack").show();
 	    $("#goRight-Straight1").hide();
 	});
