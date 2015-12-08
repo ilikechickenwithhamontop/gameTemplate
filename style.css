@@ -33,7 +33,9 @@ body {
     font-family: Courier;
 }
   a.button:hover {
-    background-image:('img/url.jpg');
+    background-color:#00004d;
+    color:#0091a6;
+
   }
 
 
