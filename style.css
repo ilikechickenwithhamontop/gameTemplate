@@ -96,6 +96,12 @@ body {
     display: none;
 }
 
+#goStraight1 {
+    bottom: 25%;
+    left: 45%;
+    display: block;
+}
+
 #goRight-Right2 {
     right: 40px;
     top: 40%;
@@ -114,6 +120,17 @@ body {
     display: none;
 }
 
+#goStraight-Left1 {
+    left: 40px;
+    top: 40%;
+    display: none;
+}
+
+#goStraight-Right1 {
+    right: 40px;
+    top: 40%;
+    display: none;
+}
 
 .hudBase {
     background-color: rgba(0,0,0,0.7);

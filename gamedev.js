@@ -7,6 +7,7 @@ $( document ).ready(function() {
 		$("#goRight-Straight1").show();
 		$("#goRight-Right2").hide();
 		$("#goLeft1").hide();
+		$("#goStraight1").hide();
 	});
 
 	$("#goRight-Straight1").click(function() {
@@ -40,12 +41,14 @@ $( document ).ready(function() {
 		$("#goLeft1").hide();
 		$("#goLeft-Straight1").show();
 		$("#goRight1").hide();
+		$("#goStraight1").hide();
 	});
 
 	$("#goLeft-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/18vxcgwq8bi3fjpg.jpg')");
 		$("#goLeft2").hide();
 		$("#goLeft-Straight1").hide();
+		$("#goBack").show();
 	});
 
 	$("#goLeft-Straight2").click(function() {
@@ -60,8 +63,17 @@ $( document ).ready(function() {
 		$("#goBack").hide();
 		$("#goRight1").show();
 		$("#goLeft1").show();
+		$("#goStraight1").show();
 	});
 
-
+    $("#goStraight1").click(function() {
+		$("#exploreBody").css("background-image", "url('img/Dark_hallway_widescreen_hd_wallpaper.jpg')");
+		$("#goStraight-Left1").show();
+		$("#goBack").hide();
+		$("#goStraight-Right1").show();
+		$("#goStraight-Straight1").show();
+		$("#goLeft1").hide();
+		$("#goRight1").hide();
+	});
 
 });
