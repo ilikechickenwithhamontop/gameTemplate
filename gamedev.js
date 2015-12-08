@@ -82,8 +82,14 @@ $( document ).ready(function() {
 		$("#goStraight-Straight1").hide();
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
+<<<<<<< HEAD
         $("#goStraight-Left1").hide();
         $("#goStraight-LeftStraight1").show();
+=======
+		$("#goStraight-Left1").hide();
+		$("#goStraight1").hide();
+
+>>>>>>> origin/master
 	});
 
 });
