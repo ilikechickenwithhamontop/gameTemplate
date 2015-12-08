@@ -74,6 +74,7 @@ $( document ).ready(function() {
 		$("#goStraight-Straight1").show();
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
+		$("#goStraight1").hide();
 	});
 
 	$("#goStraight-Left1").click(function() {
@@ -82,10 +83,9 @@ $( document ).ready(function() {
 		$("#goStraight-Straight1").hide();
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
-<<<<<<< HEAD
+
         $("#goStraight-Left1").hide();
         $("#goStraight-LeftStraight1").show();
-=======
 		$("#goStraight-Left1").hide();
 		$("#goStraight1").hide();
 
