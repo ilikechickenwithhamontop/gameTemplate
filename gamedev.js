@@ -72,6 +72,8 @@ $( document ).ready(function() {
 		$("#goBack").hide();
 		$("#goStraight-Right1").show();
 		$("#goStraight-Straight1").show();
+		$("#goLeft1").hide();
+		$("#goRight1").hide();
 	});
 
 });
