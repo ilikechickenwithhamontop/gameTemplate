@@ -82,6 +82,7 @@ $( document ).ready(function() {
 		$("#goStraight-Straight1").hide();
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
+		$("#goStraight-Left1").hide();
 
 	});
 
