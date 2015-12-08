@@ -11,7 +11,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goRight-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/4984770900_13b607842b_b.jpg')");
 	    $("#goBack").show();
 	    $("#goRight-Straight1").hide();
 	});
@@ -37,7 +37,7 @@ $( document ).ready(function() {
 
 
 	$("#goLeft1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/Dark_room.gif')");
+		$("#exploreBody").css("background-image", "url('img/001254_large.jpg')");
 		$("#goLeft1").hide();
 		$("#goLeft-Straight1").show();
 		$("#goRight1").hide();
@@ -45,7 +45,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goLeft-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/18vxcgwq8bi3fjpg.jpg')");
 		$("#goLeft2").hide();
 		$("#goLeft-Straight1").hide();
 		$("#goBack").show();

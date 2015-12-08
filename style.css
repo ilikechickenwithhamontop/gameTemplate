@@ -23,16 +23,19 @@ body {
 
 .button {
 	border: 5px solid #383838;
-    color: #1085CC;
+    color: #FFD700;
     padding: 20px 50px;
     font-size: 5em;
     text-decoration: none;
-    background-color: #abc;
+    background-color: #4b4b4b;
     box-shadow: 15px 15px 80px #555;
+    border-radius: 10px;
+    font-family: Courier;
 }
   a.button:hover {
-    background-color: #383838;
-    color: #abc;
+    background-color:#00004d;
+    color:#0091a6;
+
   }
 
 
@@ -78,6 +81,7 @@ body {
     bottom: 25%;
     left: 45%;
     display: none;
+    height:50px;
 }
 
 #goRight-Straight2 {
