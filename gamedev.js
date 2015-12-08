@@ -83,7 +83,7 @@ $( document ).ready(function() {
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
         $("#goStraight-Left1").hide();
-        $("#goStraight-LeftStraight1").hide();
+        $("#goStraight-LeftStraight1").show();
 	});
 
 });
