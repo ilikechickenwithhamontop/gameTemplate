@@ -43,7 +43,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goLeft-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft2.jpg')");
+		$("#exploreBody").css("background-image", "url('img/18vxcgwq8bi3fjpg.jpg')");
 		$("#goLeft2").hide();
 		$("#goLeft-Straight1").hide();
 	});
