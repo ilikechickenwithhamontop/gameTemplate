@@ -78,6 +78,6 @@ $( document ).ready(function() {
 
 	$("#goStraight-Left1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/scare-room.jpg')"
-	}
+	});
 
 });
