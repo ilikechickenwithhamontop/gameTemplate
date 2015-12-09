@@ -85,7 +85,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goStraight2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/6257.png')")
+		$("#exploreBody").css("background-image", "url('img/6257.png')");
 		$("#goStraight-Left1").hide();
 		$("#goBack").show();
 		$("#goStraight-Right1").hide();
