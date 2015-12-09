@@ -101,7 +101,7 @@ $( document ).ready(function() {
 		$("#goStraight-Straight1").hide();
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
-		$("#goStraight2").hide();
+		$("#goStraight2").show();
 <<<<<<< HEAD
         $("#goStraight-Left1").hide();
         $("#goStraight-LeftStraight1").show();
