@@ -84,6 +84,17 @@ $( document ).ready(function() {
 		$("#goStraight2").hide();
 	});
 
+	$("#goStraight2").click(function() {
+		$("#exploreBody").css("background-image", "url('img/6257.png')")
+		$("#goStraight-Left1").hide();
+		$("#goBack").show();
+		$("#goStraight-Right1").hide();
+		$("#goStraight-Straight1").hide();
+		$("#goLeft1").hide();
+		$("#goRight1").hide();
+		$("#goStraight2").hide();
+	}
+
 	$("#goStraight-Left1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/scary-room.jpg')");
 		$("#goStraight-Right1").hide();
