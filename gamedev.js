@@ -93,7 +93,7 @@ $( document ).ready(function() {
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
 		$("#goStraight2").hide();
-	}
+	});
 
 	$("#goStraight-Left1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/scary-room.jpg')");
