@@ -76,6 +76,7 @@ body {
     display: block;
     border-radius: 5px;
     color:#ffb90f;
+    background-color: #00004d;
 }
 
 #goRight-Straight1 {
@@ -84,6 +85,7 @@ body {
     display: none;
     border-radius: 5px;
     color:#ffb90f;
+     background-color: #00004d;
 }
 
 #goLeft-Straight1 {
@@ -93,6 +95,7 @@ body {
     height:50px;
     border-radius: 5px;
     color:#ffb90f;
+     background-color: #00004d;
 }
 
 #goRight-Straight2 {
@@ -101,6 +104,7 @@ body {
     display: none;
     border-radius: 5px;
     color:#ffb90f;
+     background-color: #00004d;
 }
 
 #goLeft-Straight2 {
@@ -109,6 +113,7 @@ body {
     display: none;
     border-radius: 5px;
     color:#ffb90f;
+     background-color: #00004d;
 }
 
 #goStraight1 {
@@ -117,6 +122,7 @@ body {
     display: block;
     border-radius: 5px;
     color:#ffb90f;
+     background-color: #00004d;
 }
 #goEnd {
     bottom: 25%;
@@ -124,6 +130,7 @@ body {
     display: none;
     border-radius: 5px;
     color:#ffb90f;
+     background-color: #00004d;
 }
 #goStraight-Straight1 {
     bottom: 25%;
@@ -131,6 +138,7 @@ body {
     display: none ;
     border-radius: 5px;
     color:#ffb90f;
+     background-color: #00004d;
 
 }
 
@@ -142,6 +150,7 @@ body {
     display: none;
     border-radius: 5px;
     color:#ffb90f;
+     background-color: #00004d;
 }
 
 #goStraight-Left1 {
@@ -150,6 +159,7 @@ body {
     display: none;
     border-radius: 5px;
     color:#ffb90f;
+     background-color: #00004d;
 }
 
 #goStraight-Right1 {
@@ -158,6 +168,7 @@ body {
     display: none;
     border-radius: 5px;
     color:#ffb90f;
+     background-color: #00004d;
 }
 
 .hudBase {
