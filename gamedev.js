@@ -9,6 +9,7 @@ $( document ).ready(function() {
 		$("#goLeft1").hide();
 		$("#goStraight1").hide();
 		$("#goStraight2").hide();
+		$("#goLeft-Straight2").hide();
 	});
 
 	$("#goRight-Straight1").click(function() {
