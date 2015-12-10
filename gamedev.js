@@ -10,6 +10,7 @@ $( document ).ready(function() {
 		$("#goStraight1").hide();
 		$("#goStraight2").hide();
 		$("#goLeft-Straight2").hide();
+		$("#goEnd").hide();
 	});
 
 	$("#goRight-Straight1").click(function() {
@@ -17,6 +18,7 @@ $( document ).ready(function() {
 	    $("#goBack").show();
 	    $("#goRight-Straight1").hide();
 	    $("#goStraight2").hide();
+	    $("#goEnd").hide();
 	});
 
 
@@ -27,6 +29,7 @@ $( document ).ready(function() {
 		$("#goLeft-Straight1").show();
 		$("#goRight1").hide();
 		$("#goStraight1").hide();
+		$("#goEnd").hide();
 	});
 
 	$("#goLeft-Straight1").click(function() {
@@ -35,12 +38,14 @@ $( document ).ready(function() {
 		$("#goLeft-Straight1").hide();
 		$("#goBack").show();
 		$("#goStraight2").hide();
+		$("#goEnd").hide();
 	});
 
 	$("#goLeft-Straight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
 		$("#goBack").show();
 		$("#goLeft-Straight2").hide();
+		
 	});
 
 
