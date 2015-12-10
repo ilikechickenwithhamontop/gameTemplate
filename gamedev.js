@@ -81,7 +81,7 @@ $( document ).ready(function() {
 		$("#goStraight-Straight1").show();
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
-		$("#goStraight2").show();
+		$("#goStraight2").hide();
 	});
 
 	$("#goStraight2").click(function() {
