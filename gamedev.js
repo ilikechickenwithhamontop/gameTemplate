@@ -66,6 +66,7 @@ $( document ).ready(function() {
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
 		$("#goStraight1").hide();
+		$("#goEnd").hide();
 	
 	});
 
