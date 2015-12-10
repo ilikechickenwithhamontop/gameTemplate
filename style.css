@@ -68,7 +68,8 @@ body {
     border-radius: 5px;
      background-color: #b2bbbf;
      color:black;
-     outline-color: #FFD700;
+     border-color: #FFD700;
+
 
 }
 
@@ -89,7 +90,7 @@ body {
     border-radius: 5px;
      background-color: #b2bbbf;
       color:black;
-      outline-color: #FFD700;
+      border-color: #FFD700;
 }
 
 #goLeft-Straight1 {
@@ -100,7 +101,7 @@ body {
     border-radius: 5px;
      background-color: #b2bbbf;
       color:black;
-      outline-color: #FFD700;
+      border-color: #FFD700;
 }
 
 #goRight-Straight2 {
@@ -110,7 +111,7 @@ body {
     border-radius: 5px;
     background-color: #b2bbbf;
      color:black;
-     outline-color: #FFD700;
+     border-color: #FFD700;
 }
 
 #goLeft-Straight2 {
@@ -120,9 +121,8 @@ body {
     border-radius: 5px;
     background-color: #b2bbbf;
      color:black;
-     outline-color: #FFD700;
-}
-
+     border-color: #FFD700;
+ }
 #goStraight1 {
     bottom: 25%;
     left: 45%;
@@ -130,7 +130,7 @@ body {
     border-radius: 5px;
     background-color: #b2bbbf;
      color:black;
-     outline-color: #FFD700;
+    border-color: #FFD700;
 }
 #goEnd {
     bottom: 25%;
@@ -148,7 +148,7 @@ body {
     border-radius: 5px;
      background-color: #b2bbbf;
       color:black;
-      outline-color: #FFD700;
+      border-color: #FFD700;
 }
 
 
@@ -160,7 +160,7 @@ body {
     border-radius: 5px;
      background-color: #b2bbbf;
       color:black;
-      outline-color: #FFD700;
+      border-color: #FFD700;
 }
 
 #goStraight-Left1 {
@@ -170,7 +170,7 @@ body {
     border-radius: 5px;
      background-color: #b2bbbf;
       color:black;
-      outline-color: #FFD700;
+      border-color: #FFD700;
 }
 
 #goStraight-Right1 {
@@ -180,7 +180,7 @@ body {
     border-radius: 5px;
      background-color: #b2bbbf;
       color:black;
-      outline-color: #FFD700;
+      border-color: #FFD700;
 }
 
 .hudBase {
