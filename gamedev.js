@@ -60,7 +60,6 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
 		$("#goLeft3").hide();
 		$("#goBack").show();
-		$("#goStraight2").hide();
 	});
 
 
@@ -70,7 +69,6 @@ $( document ).ready(function() {
 		$("#goRight1").show();
 		$("#goLeft1").show();
 		$("#goStraight1").show();
-		$("#goStraight2").hide();
 	});
 
     $("#goStraight1").click(function() {
@@ -81,7 +79,6 @@ $( document ).ready(function() {
 		$("#goStraight-Straight1").show();
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
-		$("#goStraight2").show();
 	});
 
 	$("#goStraight2").click(function() {
@@ -92,7 +89,6 @@ $( document ).ready(function() {
 		$("#goStraight-Straight1").hide();
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
-		$("#goStraight2").hide();
 	});
 
 	$("#goStraight-Left1").click(function() {
