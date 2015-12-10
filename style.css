@@ -102,6 +102,12 @@ body {
     display: block;
 }
 
+#goStraight2 {
+     bottom: 25%;
+    left: 45%;
+    display: block;
+}
+
 #goRight-Right2 {
     right: 40px;
     top: 40%;
