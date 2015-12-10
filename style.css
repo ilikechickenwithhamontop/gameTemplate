@@ -101,21 +101,14 @@ body {
     left: 45%;
     display: block;
 }
-
-
-}
-
-#goRight-Right2 {
-    right: 40px;
-    top: 40%;
-    display: none;
-}
-
-#goLeft-Straight3 {
+#goStraight-Straight {
     bottom: 25%;
     left: 45%;
     display: none;
+
 }
+
+
 
 #goBack {
     bottom: 25%;
