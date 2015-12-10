@@ -104,7 +104,7 @@ body {
 #goEnd {
     bottom: 25%;
     left: 45%;
-    display: block;
+    display: none;
 }
 #goStraight-Straight1 {
     bottom: 25%;
