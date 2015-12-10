@@ -57,7 +57,7 @@ body {
     color: white;
     font-size: 6em;
     box-shadow: 2px 2px 20px #CCE8EA;
-    border-color: white;
+    border-color: #ffb90f;
 
 }
 
@@ -66,8 +66,7 @@ body {
     top: 40%;
     display: block;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
+     background-color: #b2bbbf;
 
 }
 
@@ -76,8 +75,7 @@ body {
     top: 40%;
     display: block;
     border-radius: 5px;
-    color:#ffb90f;
-    background-color: #00004d;
+    background-color: #b2bbbf;
 }
 
 #goRight-Straight1 {
@@ -85,8 +83,7 @@ body {
     left: 40%;
     display: none;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
+     background-color: #b2bbbf;
 }
 
 #goLeft-Straight1 {
@@ -95,8 +92,7 @@ body {
     display: none;
     height:50px;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
+     background-color: #b2bbbf;
 }
 
 #goRight-Straight2 {
@@ -104,8 +100,7 @@ body {
     left: 45%;
     display: none;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
+    background-color: #b2bbbf;
 }
 
 #goLeft-Straight2 {
@@ -113,8 +108,7 @@ body {
     left: 45%;
     display: none;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
+    background-color: #b2bbbf;
 }
 
 #goStraight1 {
@@ -122,25 +116,21 @@ body {
     left: 45%;
     display: block;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
+    background-color: #b2bbbf;
 }
 #goEnd {
     bottom: 25%;
     left: 45%;
     display: none;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
+   background-color: #b2bbbf;
 }
 #goStraight-Straight1 {
     bottom: 25%;
     left: 45%;
     display: none ;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
-
+     background-color: #b2bbbf;
 }
 
 
@@ -150,8 +140,7 @@ body {
     left: 45%;
     display: none;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
+     background-color: #b2bbbf;
 }
 
 #goStraight-Left1 {
@@ -159,8 +148,7 @@ body {
     top: 40%;
     display: none;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
+     background-color: #b2bbbf;
 }
 
 #goStraight-Right1 {
@@ -168,8 +156,7 @@ body {
     top: 40%;
     display: none;
     border-radius: 5px;
-    color:#ffb90f;
-     background-color: #00004d;
+     background-color: #b2bbbf;
 }
 
 .hudBase {
