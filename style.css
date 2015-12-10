@@ -184,14 +184,13 @@ body {
 }
 
 .hudBase {
-   
+    background-color: rgba(0,0,0,0.7);
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 150px;
     color: #ffb90f;
     padding: 10px 30px;
-    display:none;
 }
 
 .hudInv {
