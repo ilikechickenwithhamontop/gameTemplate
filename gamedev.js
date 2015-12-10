@@ -112,6 +112,7 @@ $("#goEnd").click(function() {
 		$("#goStraight-Straight1").hide();
 		$("#goStraight-Left1").hide();
 		$("#goBack").show();
+		$("#goEnd").hide();
 
 		});
 
