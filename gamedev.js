@@ -112,7 +112,7 @@ $( document ).ready(function() {
 		});
 
 $("#goEnd").click(function() {
-		$("#exploreBody").css("background-image", "url('img/imgres.jpg')");
+		$("#exploreBody").css("background-image", "url('img/automation-with-humans-in-mind-making-complex-systems-predictable-reliable-and-humane-59-638.jpg')");
 		$("#goStraight-Right1").hide();
 		$("#goStraight-Straight1").hide();
 		$("#goStraight-Left1").hide();
