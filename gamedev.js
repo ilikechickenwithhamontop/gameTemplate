@@ -95,6 +95,15 @@ $( document ).ready(function() {
 		$("#goBack").show();
 
 		});
+	$("#goStraight-Straight1").click(function() {
+		$("#exploreBody").css("background-image", "url('img/maxresdefault.jpg')");
+		$("#goStraight-Right1").hide();
+		$("#goStraight-Straight1").hide();
+		$("#goStraight-Left1").hide();
+		$("#goLeft-Straight2").hide();
+		$("#goBack").show();
+		});
+
 
 
 
