@@ -53,7 +53,7 @@ $( document ).ready(function() {
 		$("#goLeft-Straight1").hide();
 		$("#goLeft-Straight2").hide();
 		$("#goRight-Straight1").hide();
-
+        $("#goStraight-Straight1").hide();
 	});
 
     $("#goStraight1").click(function() {
