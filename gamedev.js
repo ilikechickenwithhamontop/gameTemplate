@@ -5,7 +5,6 @@ $( document ).ready(function() {
 		$("#goRight1").hide();
 		$("#goBack").hide();
 		$("#goRight-Straight1").show();
-		$("#goRight-Right2").hide();
 		$("#goLeft1").hide();
 		$("#goStraight1").hide();
 		$("#goStraight2").hide();
@@ -18,26 +17,6 @@ $( document ).ready(function() {
 	    $("#goStraight2").hide();
 	});
 
-	$("#goRight-Straight2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
-		$("#goRight-Straight2").hide();
-		$("#goRight-Straight3").hide();
-	});
-
-	$("#goRight-Straight3").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
-		$("#goRight-Straight3").hide();
-		$("#goRight-Right2").show();
-	});
-
-	$("#goRight-Right2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/explore2-goBack2.jpg')");
-		$("#goRight-Right2").hide();
-		$("#goBack").show();
-		$("#goRight-Straight1").hide();
-		$("#goStraight2").hide();
-	});
-
 
 	$("#goLeft1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/001254_large.jpg')");
@@ -45,20 +24,18 @@ $( document ).ready(function() {
 		$("#goLeft-Straight1").show();
 		$("#goRight1").hide();
 		$("#goStraight1").hide();
-		$("#goStraight2").hide();
 	});
 
 	$("#goLeft-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/18vxcgwq8bi3fjpg.jpg')");
-		$("#goLeft2").hide();
+		$("#goLeft1").hide();
 		$("#goLeft-Straight1").hide();
 		$("#goBack").show();
-		$("#goStraight2").hide();
 	});
 
 	$("#goLeft-Straight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
-		$("#goLeft3").hide();
+		$("#goLeft2").hide();
 		$("#goBack").show();
 	});
 
@@ -81,7 +58,7 @@ $( document ).ready(function() {
 		$("#goRight1").hide();
 	});
 
-	$("#goStraight2").click(function() {
+	$("#goStraight-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/6257.png')");
 		$("#goStraight-Left1").hide();
 		$("#goBack").show();
@@ -99,10 +76,11 @@ $( document ).ready(function() {
 		$("#goRight1").hide();
 		$("#goStraight2").show();
         $("#goStraight-Left1").hide();
-        $("#goStraight-LeftStraight1").show();
+        $("#goLeftStraight2").show();
 		$("#goStraight-Left1").hide();
 		$("#goStraight-Right1").hide();
 		$("#goLeft-Straight2").show();
 
 	});
+
 });
