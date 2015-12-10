@@ -54,7 +54,7 @@ $( document ).ready(function() {
 		$("#goLeft-Straight2").hide();
 		$("#goRight-Straight1").hide();
         $("#goStraight-Straight1").hide();
-          $("#goEnd").hide();
+        $("#goEnd").hide();
 	});
 
     $("#goStraight1").click(function() {
