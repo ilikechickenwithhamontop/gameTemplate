@@ -81,7 +81,7 @@ $( document ).ready(function() {
 		$("#goStraight-Straight1").show();
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
-		$("#goStraight2").hide();
+		$("#goStraight2").show();
 	});
 
 	$("#goStraight2").click(function() {
@@ -99,16 +99,11 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/scare-room.jpg')");
 		$("#goStraight-Right1").hide();
 		$("#goStraight-Straight1").hide();
-<<<<<<< HEAD
-=======
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
 		$("#goStraight2").show();
-<<<<<<< HEAD
         $("#goStraight-Left1").hide();
         $("#goStraight-LeftStraight1").show();
-=======
->>>>>>> origin/master
 		$("#goStraight-Left1").hide();
 		$("#goStraight-Right1").hide();
 		$("#goLeft-Straight2").show();
