@@ -40,7 +40,7 @@ $( document ).ready(function() {
 	$("#goLeft-Straight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
 		$("#goBack").show();
-		$("#goStraight2").hide();
+		$("#goLeft-Straight2").hide();
 	});
 
 
@@ -85,4 +85,16 @@ $
 		$("#goLeft-Straight2").show();
 
 	});
+	$("#goStraight-Right1").click(function() {
+		$("#exploreBody").css("background-image", "url('img/79850105-ac0264ba-0066-415a-84bb63ef8808b61a.jpg')");
+		$("#goStraight-Right1").hide();
+		$("#goStraight-Straight1").hide();
+		$("#goLeft-Straight2").hide();
+		$("#goStraight-Left1").hide();
+		$("#goStraight-Right1").hide();
+		$("#goLeft-Straight2").hide();
+		$("goBack").show();
+
+
+
 });
