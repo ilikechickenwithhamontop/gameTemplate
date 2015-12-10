@@ -7,6 +7,11 @@ $( document ).ready(function() {
 		$("#goRight-Straight1").show();
 		$("#goLeft1").hide();
 		$("#goStraight1").hide();
+<<<<<<< HEAD
+=======
+		$("#goStraight2").hide();
+		$("#goLeft-Straight2").hide();
+>>>>>>> origin/master
 	});
 
 	$("#goRight-Straight1").click(function() {
@@ -58,14 +63,45 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/Dark_hallway_widescreen_hd_wallpaper.jpg')");
 		$("#goStraight-Left1").show();
 		$("#goBack").hide();
+<<<<<<< HEAD
 		$("#goRight1").show();
 		$("#goStraight2").show();
+=======
+		$("#goStraight-Right1").show();
+		$("#goStraight-Straight1").show();
+		$("#goLeft1").hide();
+		$("#goRight1").hide();
+		$("#goStraight2").hide();
+	});
+
+	$("#goStraight2").click(function() {
+		$("#exploreBody").css("background-image", "url('img/6257.png')");
+		$("#goStraight-Left1").hide();
+		$("#goBack").show();
+		$("#goStraight-Right1").hide();
+		$("#goStraight-Straight1").hide();
+>>>>>>> origin/master
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
 	});
 
+<<<<<<< HEAD
 	 $("#goStraight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/maxresdefault.jpg')");
 		
+=======
+	$("#goStraight-Left1").click(function() {
+		$("#exploreBody").css("background-image", "url('img/scary-room.jpg')");
+		$("#goStraight-Right1").hide();
+		$("#goStraight-Straight1").hide();
+		$("#goLeft1").hide();
+		$("#goRight1").hide();
+		$("#goStraight2").show();
+        $("#goStraight-Left1").hide();
+        $("#goStraight-LeftStraight1").show();
+		$("#goStraight-Left1").hide();
+		$("#goStraight-Right1").hide();
+		$("#goLeft-Straight2").show();
+>>>>>>> origin/master
 
 });
