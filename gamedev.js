@@ -74,7 +74,7 @@ $( document ).ready(function() {
 		
 		
 	});
-$
+
 	$("#goStraight-Left1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/scary-room.jpg')");
 		$("#goStraight-Right1").hide();
@@ -89,11 +89,11 @@ $
 		$("#exploreBody").css("background-image", "url('img/79850105-ac0264ba-0066-415a-84bb63ef8808b61a.jpg')");
 		$("#goStraight-Right1").hide();
 		$("#goStraight-Straight1").hide();
-		$("#goLeft-Straight2").hide();
 		$("#goStraight-Left1").hide();
-		$("#goStraight-Right1").hide();
 		$("#goLeft-Straight2").hide();
-		$("goBack").show();
+		$("#goBack").show();
+
+		});
 
 
 
