@@ -15,10 +15,11 @@ body {
 }
 
 .splashTitle {
-	color: #fff;
+	color: #007f52;
     font-size: 8em;
     text-transform: uppercase;
     text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.74);
+    font-family:Courier;
 }
 
 .button {
@@ -155,6 +156,7 @@ body {
     display: inline-block;
     padding: 10px;
 }
+
 
 #invTitle {
 display: inline;

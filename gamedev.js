@@ -45,7 +45,7 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
 		$("#goBack").show();
 		$("#goLeft-Straight2").hide();
-		
+
 	});
 
 
@@ -78,7 +78,7 @@ $( document ).ready(function() {
 	$("#goLeft-Straight2").click(function() {
 		$("#exploreBody").css("background-image", "url('img/6257.png')");
 		$("#goStraight-Left1").hide();
-		$("#goBack").show();
+		$("#goBack").hide();
 		$("#goEnd").show();
 		
 		
