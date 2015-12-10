@@ -65,18 +65,25 @@ body {
     left: 40px;
     top: 40%;
     display: block;
+    border-radius: 5px;
+    color:blue;
+
 }
 
 #goRight1 {
     right: 40px;
     top: 40%;
     display: block;
+    border-radius: 5px;
+    color:blue;
 }
 
 #goRight-Straight1 {
     bottom: 25%;
     left: 40%;
     display: none;
+    border-radius: 5px;
+    color:blue;
 }
 
 #goLeft-Straight1 {
@@ -84,34 +91,46 @@ body {
     left: 45%;
     display: none;
     height:50px;
+    border-radius: 5px;
+    color:blue;
 }
 
 #goRight-Straight2 {
     bottom: 25%;
     left: 45%;
     display: none;
+    border-radius: 5px;
+    color:blue;
 }
 
 #goLeft-Straight2 {
     bottom: 25%;
     left: 45%;
     display: none;
+    border-radius: 5px;
+    color:blue;
 }
 
 #goStraight1 {
     bottom: 25%;
     left: 45%;
     display: block;
+    border-radius: 5px;
+    color:blue;
 }
 #goEnd {
     bottom: 25%;
     left: 45%;
     display: none;
+    border-radius: 5px;
+    color:blue;
 }
 #goStraight-Straight1 {
     bottom: 25%;
     left: 45%;
     display: none ;
+    border-radius: 5px;
+    color:blue;
 
 }
 
@@ -121,18 +140,24 @@ body {
     bottom: 25%;
     left: 45%;
     display: none;
+    border-radius: 5px;
+    color:blue;
 }
 
 #goStraight-Left1 {
     left: 40px;
     top: 40%;
     display: none;
+    border-radius: 5px;
+    color:blue;
 }
 
 #goStraight-Right1 {
     right: 40px;
     top: 40%;
     display: none;
+    border-radius: 5px;
+    color:blue;
 }
 
 .hudBase {
