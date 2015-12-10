@@ -50,7 +50,9 @@ $( document ).ready(function() {
 		$("#goRight1").show();
 		$("#goLeft1").show();
 		$("#goStraight1").show();
-		$("#goStraight2").hide();
+		$("#goLeft-Straight1").hide();
+		$("#goLeft-Straight2").hide();
+		$("#goRight-Straight1").hide();
 
 	});
 
