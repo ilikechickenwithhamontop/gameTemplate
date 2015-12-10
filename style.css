@@ -191,6 +191,7 @@ body {
     height: 150px;
     color: #ffb90f;
     padding: 10px 30px;
+    background:transparent;
 }
 
 .hudInv {
