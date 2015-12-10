@@ -122,6 +122,4 @@ $("#goEnd").click(function() {
 		});
 
 
-
-
 });
