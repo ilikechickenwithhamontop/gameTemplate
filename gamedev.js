@@ -72,6 +72,7 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/6257.png')");
 		$("#goStraight-Left1").hide();
 		$("#goBack").show();
+		$("#goEnd").show();
 		
 		
 	});
@@ -100,8 +101,16 @@ $( document ).ready(function() {
 		$("#goStraight-Right1").hide();
 		$("#goStraight-Straight1").hide();
 		$("#goStraight-Left1").hide();
-		$("#goLeft-Straight2").hide();
 		$("#goBack").show();
+		});
+
+$("#goEnd").click(function() {
+		$("#exploreBody").css("background-image", "url('img/imgres.jpg')");
+		$("#goStraight-Right1").hide();
+		$("#goStraight-Straight1").hide();
+		$("#goStraight-Left1").hide();
+		$("#goBack").show();
+
 		});
 
 
