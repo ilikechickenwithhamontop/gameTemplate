@@ -26,6 +26,14 @@ $( document ).ready(function() {
 		$("#goStraight1").hide();
 	});
 
+	$("#goLeft2").click(function() {
+		$("#exploreBody").css("background-image", "url('')");
+		$("#goStraight1").hide();
+		$("#goLeft-Straight1").show();
+		$("#goRight2").hide();
+		$("#goStraight-Straight1").hide();
+	});
+
 	$("#goLeft-Straight1").click(function() {
 		$("#exploreBody").css("background-image", "url('img/18vxcgwq8bi3fjpg.jpg')");
 		$("#goLeft1").hide();
@@ -34,7 +42,7 @@ $( document ).ready(function() {
 	});
 
 	$("#goLeft-Straight2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreLeft3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/6257.png')");
 		$("#goLeft2").hide();
 		$("#goBack").show();
 	});
@@ -56,31 +64,6 @@ $( document ).ready(function() {
 		$("#goStraight-Straight1").show();
 		$("#goLeft1").hide();
 		$("#goRight1").hide();
-	});
-
-	$("#goStraight-Straight1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/6257.png')");
-		$("#goStraight-Left1").hide();
-		$("#goBack").show();
-		$("#goStraight-Right1").hide();
-		$("#goStraight-Straight1").hide();
-		$("#goLeft1").hide();
-		$("#goRight1").hide();
-	});
-
-	$("#goStraight-Left1").click(function() {
-		$("#exploreBody").css("background-image", "url('img/scare-room.jpg')");
-		$("#goStraight-Right1").hide();
-		$("#goStraight-Straight1").hide();
-		$("#goLeft1").hide();
-		$("#goRight1").hide();
-		$("#goStraight2").show();
-        $("#goStraight-Left1").hide();
-        $("#goLeftStraight2").show();
-		$("#goStraight-Left1").hide();
-		$("#goStraight-Right1").hide();
-		$("#goLeft-Straight2").show();
-
 	});
 
 });
