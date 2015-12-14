@@ -56,7 +56,12 @@ body {
     padding: 20px 10px;
     color: white;
     font-size: 6em;
+<<<<<<< HEAD
     box-shadow: 5px 5px 20px #CCE8EA;
+=======
+    box-shadow: 2px 2px 20px #CCE8EA;
+    border-color: #ffb90f;
+>>>>>>> origin/master
 
 }
 
@@ -64,18 +69,32 @@ body {
     left: 40px;
     top: 40%;
     display: block;
+    border-radius: 5px;
+     background-color: #b2bbbf;
+     color:black;
+     border-color: #FFD700;
+
+
 }
 
 #goRight1 {
     right: 40px;
     top: 40%;
     display: block;
+    border-radius: 5px;
+    background-color: #b2bbbf;
+     color:black;
+     outline-color: #FFD700;
 }
 
 #goRight-Straight1 {
     bottom: 25%;
     left: 40%;
     display: none;
+    border-radius: 5px;
+     background-color: #b2bbbf;
+      color:black;
+      border-color: #FFD700;
 }
 
 #goLeft-Straight1 {
@@ -83,35 +102,57 @@ body {
     left: 45%;
     display: none;
     height:50px;
+    border-radius: 5px;
+     background-color: #b2bbbf;
+      color:black;
+      border-color: #FFD700;
 }
 
 #goRight-Straight2 {
     bottom: 25%;
     left: 45%;
     display: none;
+    border-radius: 5px;
+    background-color: #b2bbbf;
+     color:black;
+     border-color: #FFD700;
 }
 
 #goLeft-Straight2 {
     bottom: 25%;
     left: 45%;
     display: none;
-}
-
+    border-radius: 5px;
+    background-color: #b2bbbf;
+     color:black;
+     border-color: #FFD700;
+ }
 #goStraight1 {
     bottom: 25%;
     left: 45%;
     display: block;
+    border-radius: 5px;
+    background-color: #b2bbbf;
+     color:black;
+    border-color: #FFD700;
 }
 #goEnd {
     bottom: 25%;
     left: 45%;
     display: none;
+    border-radius: 5px;
+   background-color: #b2bbbf;
+    color:black;
+    outline-color: #FFD700;
 }
 #goStraight-Straight1 {
     bottom: 25%;
     left: 45%;
     display: none ;
-
+    border-radius: 5px;
+     background-color: #b2bbbf;
+      color:black;
+      border-color: #FFD700;
 }
 
 
@@ -120,18 +161,30 @@ body {
     bottom: 25%;
     left: 45%;
     display: none;
+    border-radius: 5px;
+     background-color: #b2bbbf;
+      color:black;
+      border-color: #FFD700;
 }
 
 #goStraight-Left1 {
     left: 40px;
     top: 40%;
     display: none;
+    border-radius: 5px;
+     background-color: #b2bbbf;
+      color:black;
+      border-color: #FFD700;
 }
 
 #goStraight-Right1 {
     right: 40px;
     top: 40%;
     display: none;
+    border-radius: 5px;
+     background-color: #b2bbbf;
+      color:black;
+      border-color: #FFD700;
 }
 
 .hudBase {
@@ -139,16 +192,17 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: auto;
-    color: white;
+    height: 150px;
+    color: #ffb90f;
     padding: 10px 30px;
+    background:transparent;
 }
 
 .hudInv {
     width: 50%;
     display: inline-block;
     margin-left: 10%;
-    color: #bbb;
+    color: #FFD700;
 }
 
 .hudObj {
