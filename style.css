@@ -156,19 +156,3 @@ body {
     display: inline-block;
     padding: 10px;
 }
-
-
-#invTitle {
-display: inline;
-
-}
-
-.invSlot1 {
-	display: inline;
-	width: 80px;
-	height: 80px;
-	border: 5px dashed #bbb;
-	padding: 10px 10px;
-    margin: 20px;
-    font-size:0.6em;
-}
